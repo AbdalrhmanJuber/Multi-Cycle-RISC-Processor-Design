@@ -1,9 +1,6 @@
 # Multi-Cycle RISC Processor Design
-![(AND_Stage3)](https://github.com/user-attachments/assets/d99c2754-8f1b-48db-8e8f-e7f00b1775f1)
-![(AND_Stage2)](https://github.com/user-attachments/assets/eeae907a-2d86-4935-b2ca-970bd4106a6a)
-![(AND_Stage1)](https://github.com/user-attachments/assets/8a2ce9e7-b1e8-41c1-b8c2-681f9257ed67)
-![(AND_Instruction)](https://github.com/user-attachments/assets/03f3b6ff-bd85-4aed-95de-44b971c3dca5)
-![(AND_Stage4)](https://github.com/user-attachments/assets/4e62fcec-9caa-45c9-a76e-08b9f642bc00)
+![Screenshot 2024-06-06 194223](https://github.com/user-attachments/assets/f8ab0b5f-afa8-473f-b15d-f32ef1528e99)
+
 
 ## Project Overview
 This project involves designing and implementing a multi-cycle five-stage RISC processor. The processor supports a specific subset of RISC instructions, complete with individual components like ALU, register file, data memory, and control unit. It also includes extensive simulation and testing to verify functionality.
