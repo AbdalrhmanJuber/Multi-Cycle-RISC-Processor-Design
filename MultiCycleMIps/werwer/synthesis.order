@@ -1,0 +1,13 @@
+i<>.\src\mbm.bde
+i<>.\src\Register_file.v
+i<>.\src\Parameters.v
+i<>.\src\ALU.v
+i<>.\src\Register.v
+i<>.\src\mux_2.v
+i<>.\src\mux_4.v
+i<>.\src\mux_5.v
+i<>.\src\InstructionMemory.v
+i<>.\src\Sign_extension.v
+i<>.\src\DataMemory.v
+i<>.\src\Control_Unit.v
+i<>.\..\..\..\..\Downloads\Processor.v

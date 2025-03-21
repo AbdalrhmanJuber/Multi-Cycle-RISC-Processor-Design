@@ -1,0 +1,40 @@
+Active-HDL 15.0.261.9132 2024-06-21 23:06:29
+
+Elaboration top modules:
+Verilog Module                Processor
+SystemVerilog Package         UnitScopePackage_327
+SystemVerilog Package         UnitScopePackage_330
+SystemVerilog Package         UnitScopePackage_9
+SystemVerilog Package         UnitScopePackage_329
+
+
+-------------------------------------------------------------------------------------------
+Verilog Module          | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+Processor               | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+DFF                     | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+instructionMemory       | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+mux_2                   | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+mux_4                   | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+sign_extension          | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+RegisterFile            | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+mux_5                   | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ALU                     | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+DataMemory              | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+Control_unit            | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+SystemVerilog Package   | Library | Info | Compiler Version          | Compilation Options
+-------------------------------------------------------------------------------------------
+UnitScopePackage_327    | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+UnitScopePackage_330    | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+UnitScopePackage_9      | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+UnitScopePackage_329    | werwer  |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+-------------------------------------------------------------------------------------------
+
+-------------------------------------------------------------------------------------------
+Library                 | Comment
+-------------------------------------------------------------------------------------------
+werwer                  | None
+-------------------------------------------------------------------------------------------

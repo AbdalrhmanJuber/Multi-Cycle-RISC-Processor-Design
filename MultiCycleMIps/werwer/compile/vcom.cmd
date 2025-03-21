@@ -1,0 +1,1 @@
+-w -d C:/Users/a-ahm/Documents/Design/qweqwe/werwer/compile -s C:/Users/a-ahm/Documents/Design/qweqwe/library.cfg -j C:/Users/a-ahm/Documents/Design/qweqwe/werwer/projlib.cfg -work werwer -O3 -e 100 -work werwer -2002 C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/ALU.vhd 

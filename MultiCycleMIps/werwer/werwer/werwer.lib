@@ -1,0 +1,252 @@
+timestamp=1719000030004
+
+[~A]
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/ALU.v=0*2608*4080
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/Control_Unit.v=0*46685*48918
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/DataMemory.v=0*14583*15517
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/InstructionMemory.v=0*50728*51990
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/InstructionMemory.v_Processor.v=0*7018*10468
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/Parameters.v=0*5685*6491
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/Register.v=0*11046*11514
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/Register_file.v=0*18416*19209
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/Register_file.v_InstructionMemory.v=0*16044*17834
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/Register_file.v_Parameters.v=0*176*1110
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/Sign_extension.v=0*4600*5138
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/Sign_extension.v_InstructionMemory.v=0*12039*12981
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/mux_2.v=0*1685*2086
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/mux_4.v=0*13564*14061
+C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/mux_5.v=0*19755*20316
+C:/Users/a-ahm/Downloads/Processor.v=0*37481*40550
+CUSP_Counter=330
+LastVerilogToplevel=Processor
+ModifyID=614
+Version=74
+
+[~MFT]
+0=8|0werwer.mgf|51990|13833
+1=6|1werwer.mgf|112971|53998
+2=75|2werwer.mgf|153953|120425
+3=12|3werwer.mgf|65246|28312
+
+[$root]
+A/$root=22|||1*110634
+BinW64/$root=3*60193
+SLP=3*60308
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c92165e388b190c783d78946771ed9882edad
+
+[ALU]
+A/ALU=22|../src/ALU.v|2|1*422
+BinW64/ALU=3*183
+CUSP=UnitScopePackage_9
+R=../src/ALU.v|2
+SLP=3*1795
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b3eb40c25b2a3c0379c7730185183eec80f58fa72f84081d5b7425e921dac181
+
+[ALU_test_bench]
+A/ALU_test_bench=22|../src/ALU.v|30|1*2175
+BinW64/ALU_test_bench=3*2281
+CUSP=UnitScopePackage_9
+R=../src/ALU.v|30
+SLP=3*3588
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|a31fc2b14448ff363e25afc25062ba670a709e5c0e99122ef9b36547a2767a5d799674bdfd0b9b9655c1e2a8850db7dc
+
+[Control_unit]
+A/Control_unit=22|../src/Control_Unit.v|2|1*99295
+BinW64/Control_unit=3*51629
+CUSP=UnitScopePackage_329
+R=../src/Control_Unit.v|2
+SLP=3*56531
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|4b3e8164b969b002e6d515282ab4d868af6de2596e4875ef44b6a16f786c147d33d4e42e69f68447b0f7b70fd879997d
+
+[DFF]
+A/DFF=22|../src/Register.v|1|1*8165
+BinW64/DFF=3*12712
+R=../src/Register.v|1
+SLP=3*13285
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|44300fc340e3bc7a054c52d81b175af6baa7b6f8338eefbe72b5bc24850de51a
+
+[DataMemory]
+A/DataMemory=22|../src/DataMemory.v|1|1*9287
+BinW64/DataMemory=3*13515
+R=../src/DataMemory.v|1
+SLP=3*15219
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ab5b04ae54b0797c38b8547f936232d99426d89c50ff4379bf89bab4c639842dce47e87d0a24543a8873790a0f77ff2f
+
+[Processor]
+A/Processor=22|../../../../../Downloads/Processor.v|2|1*66492
+BinW64/Processor=3*37422
+CUSP=UnitScopePackage_327
+R=../../../../../Downloads/Processor.v|2
+SLP=3*40346
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|bc4a05e4f1986e87dc10e9c03cab55bc030c5f4de3ffa3c97f58c5528f1d7913eb932d84553fdc3823604f6fa0304a41
+
+[RegisterFile]
+A/RegisterFile=22|../src/Register_file.v|27|1*24838
+BinW64/RegisterFile=3*21454
+R=../src/Register_file.v|27
+SLP=3*22450
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|22f74543ade67d85359ca455f1aa161036d96cbaa54bbfe1fa4f47ec71d76429789ed66e95edd487b397b7e7f481cb81
+
+[Register_File]
+A/Register_File=22|../src/Register_file.v|27|1*26844
+BinW64/Register_File=3*23155
+R=../src/Register_file.v|27
+SLP=3*24078
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c8ec54a9906ad14430ce5a66200569c018947f989fa3043626745a3fae513646bcb46d694455436facc8e6dcb519e1dd
+
+[Register_file]
+A/Register_file=22|../src/Register_file.v|27|1*28854
+BinW64/Register_file=3*24763
+R=../src/Register_file.v|27
+SLP=3*25686
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|9e70bcda379cc73f3d9f2acf96d180674a827090b18bed4fe4fab3f972e1ba00ee02d5df73ee4032dbd52116676cb184
+
+[UnitScopePackage_327]
+A/UnitScopePackage_327=22|../src/parameters.v|0|1*79990
+BinW64/UnitScopePackage_327=3*42217
+CUSP=1
+R=../src/parameters.v|0
+SLP=3*42472
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|fab98aed36991913255ea6c02c9bb53e30c1e37a1a7b7ba69ad2cceda90b1015d425c0985ce6d38eed5cbfa1069dca79
+
+[UnitScopePackage_329]
+A/UnitScopePackage_329=22|../src/Parameters.v|0|1*103523
+BinW64/UnitScopePackage_329=3*59716
+CUSP=1
+R=../src/Parameters.v|0
+SLP=3*59971
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|fab98aed36991913255ea6c02c9bb53ef08c625bd13d0e224eb00fdb7768f1316190b4d27d23806c6087c342f1f37b88
+
+[UnitScopePackage_330]
+A/UnitScopePackage_330=22|../src/parameters.v|0|1*112971
+BinW64/UnitScopePackage_330=3*64991
+CUSP=1
+R=../src/parameters.v|0
+SLP=3*65246
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|fab98aed36991913255ea6c02c9bb53e4e2b4034ada71ae7875b33b3a1170c339bfce59b9c6ee1d68e68e775ba10a637
+
+[UnitScopePackage_9]
+A/UnitScopePackage_9=22|../src/Parameters.v|0|1*52217
+BinW64/UnitScopePackage_9=3*27800
+CUSP=2
+R=../src/Parameters.v|0
+SLP=3*28053
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|fab98aed36991913255ea6c02c9bb53e2087419456ba61f20f3eb972aef5e5306d38b6afbe620e99b02cdd946e97f641
+
+[alu]
+I=0*34858
+I/alu=I/ALU 0*34890
+M=11|2|vf5|1718487525806|../src/ALU.vhd|0*0*0x82020dbdc6df5c21cfaeb504fcbcd679ec1504d7|0*105*0x23b75c12e3e89f2ef000564498faa8c2
+R=../src/ALU.vhd|27
+Version=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|fdc9c85601beb4171a6a25c637e2168e7597ea17bf1962bd844b8851148b9fea
+Version/alu=15.0.261.9132 (Windows64)|00000003789cd3f5370600015b00b0|fdc9c85601beb4171a6a25c637e2168e7597ea17bf1962bd844b8851148b9fea
+
+[data_memory]
+NSymbols/data_memory=NSymbols/Data_memory 40|0|2*120425
+
+[fub1]
+NSymbols/fub1=NSymbols/Fub1 40|0|2*123875
+
+[fub2]
+NSymbols/fub2=NSymbols/Fub2 40|0|2*126899
+
+[fub3]
+NSymbols/fub3=NSymbols/Fub3 40|0|2*134545
+
+[fub4]
+NSymbols/fub4=NSymbols/Fub4 40|0|2*137582
+
+[fub5]
+NSymbols/fub5=NSymbols/Fub5 40|0|2*140619
+
+[fub6]
+NSymbols/fub6=NSymbols/Fub6 40|0|2*143656
+
+[fub7]
+NSymbols/fub7=NSymbols/Fub7 40|0|2*146693
+
+[instructionMemory]
+A/instructionMemory=22|../src/InstructionMemory.v|2|1*111056
+BinW64/instructionMemory=3*60376
+CUSP=UnitScopePackage_330
+R=../src/InstructionMemory.v|2
+SLP=3*63823
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|2b14bce026953b8dd1e6dfba2f813208905cf18b4c62110514c8f133a6f26239eec9aa5f464866eb3999e008625113bb
+
+[instruction_memory]
+NSymbols/instruction_memory=NSymbols/Instruction_Memory 40|0|2*149730
+
+[mux_2]
+A/mux_2=22|../src/mux_2.v|1|1*61221
+BinW64/mux_2=3*32885
+R=../src/mux_2.v|1
+SLP=3*33358
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|639b5b5032d37e15e85663964937407996c1ec447952810852ff8f17b3517a00
+
+[mux_4]
+A/mux_4=22|../src/mux_4.v|1|1*62204
+BinW64/mux_4=3*33538
+R=../src/mux_4.v|1
+SLP=3*34232
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|574b43f2f5c4c07f981e5af5213a053ee6072e318dc9d5326a0def1b79b2a876
+
+[mux_5]
+A/mux_5=22|../src/mux_5.v|1|1*63509
+BinW64/mux_5=3*34608
+R=../src/mux_5.v|1
+SLP=3*35716
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|ba6516af9075fd56de6f345cfd90e9ae096afe8a92a96b82747bc84501ce88c6
+
+[reg]
+NSymbols/reg=NSymbols/Reg 40|0|2*150963
+
+[register_file]
+NSymbols/register_file=NSymbols/Register_file 40|0|2*153953
+
+[sign_extension]
+A/sign_extension=22|../src/Sign_extension.v|2|1*65019
+BinW64/sign_extension=3*36315
+R=../src/Sign_extension.v|2
+SLP=3*36918
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3aad669b84a934a1f0a56f782ca2bedf95fec26f99031902fba4d0987a5834848fd24feeb0a34647cb6e00fe94f0dab6
+
+[~U]
+$root=12|0*49463|
+ALU=12|0*29292|
+ALU_test_bench=12|0*29555||0x10
+Control_unit=12|0*45559|
+DFF=12|0*30157|
+DataMemory=12|0*30364|
+Processor=12|0*36355||0x10
+RegisterFile=12|0*31033|
+Register_File=12|0*31306||0x10
+Register_file=12|0*31581||0x10
+UnitScopePackage_327=12|0*36757||0x40200000
+UnitScopePackage_329=12|0*45961||0x40200000
+UnitScopePackage_330=12|0*50005||0x40200000
+UnitScopePackage_9=12|0*34027||0x40200000
+alu=ALU 11|0*34747|
+data_memory=Data_memory 13|||0x7
+fub1=Fub1 13|||0x7
+fub13=Fub13 13||
+fub2=Fub2 13|||0x7
+fub3=Fub3 13|||0x7
+fub4=Fub4 13|||0x7
+fub5=Fub5 13|||0x7
+fub6=Fub6 13|||0x7
+fub7=Fub7 13|||0x7
+instructionMemory=12|0*49757|
+instruction_memory=Instruction_Memory 13|||0x7
+mux_2=12|0*35175||0x10
+mux_4=12|0*35376|
+mux_5=12|0*35601|
+reg=Reg 13|||0x7
+register_file=Register_file 13|||0x7
+sign_extension=12|0*35836|
+
+
+
+
+
+
+

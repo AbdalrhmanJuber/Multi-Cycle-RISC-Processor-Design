@@ -1,0 +1,10506 @@
+I 000043 40 3407 1718921950094 data_memory
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717864072"
+  #MODIFIED_USEC="783308"
+  #NAME="Data_memory"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,440)
+  FREEID 40
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,440)
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,228,29,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (108,14,132,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 22
+   ORIENTATION 5
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (145,248,186,272)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 24
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,103)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 26
+   ORIENTATION 5
+  }
+  TEXT  29, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,348,49,372)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 28
+  }
+  TEXT  33, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,341,72,426)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 32
+   ORIENTATION 5
+  }
+  TEXT  37, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (128,358,152,426)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 36
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,14,92,104)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 38
+   ORIENTATION 5
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="A"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (120,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (200,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="Data"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemWrite"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  28, 0, 0
+  {
+   COORD (0,360)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="WD"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  32, 0, 0
+  {
+   COORD (60,440)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CRTLBW"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (10,-10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  36, 0, 0
+  {
+   COORD (140,440)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CTRLM"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (10,-10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (80,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemRead"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+ }
+}
+I 000036 40 2988 1718921950130 fub1
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717878253"
+  #MODIFIED_USEC="609961"
+  #NAME="Fub1"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="a76b45be-35ec-452a-90c4-07d9180ef8de"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,240)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,240)
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,28,98,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,68,27,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (8,14,32,107)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 14
+   ORIENTATION 5
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,108,98,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,148,87,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,188,27,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (2,88,86,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET3510"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (20,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="ALUSRCB"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET4463"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET644"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="0"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET4265"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 7610 1718921950183 fub2
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718916961"
+  #MODIFIED_USEC="135817"
+  #NAME="Fub2"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="f3fbf7f8-caf0-428b-865c-9261e92d1f3c"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,1180,2260)
+  FREEID 42
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,1180,2260)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,1388,95,1412)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,788,128,812)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1096,88,1166,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,104)
+   MARGINS (1,1)
+   PARENT 10
+   ORIENTATION 5
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1077,288,1166,312)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,83)
+   MARGINS (1,1)
+   PARENT 14
+   ORIENTATION 5
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,81)
+   MARGINS (1,1)
+   PARENT 16
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1063,588,1166,612)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1083,708,1166,732)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1095,848,1166,872)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,85)
+   MARGINS (1,1)
+   PARENT 24
+   ORIENTATION 5
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,69)
+   MARGINS (1,1)
+   PARENT 26
+   ORIENTATION 5
+  }
+  TEXT  29, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1080,1168,1166,1192)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 28
+  }
+  TEXT  31, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,104)
+   MARGINS (1,1)
+   PARENT 30
+   ORIENTATION 5
+  }
+  TEXT  33, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1074,1448,1166,1472)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 32
+  }
+  TEXT  35, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1111,1608,1166,1632)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 34
+  }
+  TEXT  37, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,126)
+   MARGINS (1,1)
+   PARENT 36
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,77)
+   MARGINS (1,1)
+   PARENT 38
+   ORIENTATION 5
+  }
+  TEXT  41, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,60)
+   MARGINS (1,1)
+   PARENT 40
+   ORIENTATION 5
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,1400)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="Mbit_11_"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,800)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="Bus In"
+    #NAME="OpCode(3:0)"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (1180,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="PcWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (1180,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemRead"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (1180,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (1180,420)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="Output5"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (1180,520)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegDst"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (1180,600)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemToReg"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (1180,720)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (1180,860)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluSrcA"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (1180,960)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluSrcB"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (1180,1060)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluOp"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  28, 0, 0
+  {
+   COORD (1180,1180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="PcSource"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  30, 0, 0
+  {
+   COORD (1180,1340)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlBranch"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  32, 0, 0
+  {
+   COORD (1180,1460)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CTRLRET"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  34, 0, 0
+  {
+   COORD (1180,1620)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="ExtOp"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  36, 0, 0
+  {
+   COORD (1180,1780)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemDataSrc"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (1180,1900)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlBW"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  40, 0, 0
+  {
+   COORD (1180,2020)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlM"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000050 40 1183 1718921950209 instruction_memory
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717689190"
+  #MODIFIED_USEC="705847"
+  #NAME="Instruction_Memory"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="9d3572cf-4d1b-465c-9f38-643d8186ce12"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,440)
+  FREEID 22
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,440)
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (104,328,186,352)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,228,29,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  PIN  14, 0, 0
+  {
+   COORD (200,340)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+ }
+}
+I 000035 40 2955 1718921950291 reg
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717875068"
+  #MODIFIED_USEC="168416"
+  #NAME="Reg"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="f41d229c-e58c-4270-b596-2ca31bab3958"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,60,300)
+  FREEID 16
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,60,300)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (4,88,45,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (30,128,45,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (28,14,52,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (0,168,60,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,96,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (30,14,54,81)
+   MARGINS (1,1)
+   PARENT 12
+   ORIENTATION 5
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (-38,48,46,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  PIN  2, 0, 0
+  {
+   COORD (60,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (40,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #NAME="inst-15-0-"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (60,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (60,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000045 40 3358 1718921950310 register_file
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717860028"
+  #MODIFIED_USEC="82219"
+  #NAME="Register_file"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="058570c1-e1ec-4dcd-b3de-6cd72348bd22"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,480)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,180,480)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,88,40,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,168,40,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,328,40,352)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,428,60,452)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,14,92,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 16
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (128,14,152,97)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 5
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,48,166,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,168,166,192)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,340)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="A3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,440)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="WD3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (80,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (140,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegWrite"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (180,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="NET4304"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (-10,0), (0,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (180,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET3518"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000043 40 3407 1718998676104 data_memory
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717864072"
+  #MODIFIED_USEC="783308"
+  #NAME="Data_memory"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,440)
+  FREEID 40
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,440)
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,228,29,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (108,14,132,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 22
+   ORIENTATION 5
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (145,248,186,272)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 24
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,103)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 26
+   ORIENTATION 5
+  }
+  TEXT  29, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,348,49,372)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 28
+  }
+  TEXT  33, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,341,72,426)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 32
+   ORIENTATION 5
+  }
+  TEXT  37, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (128,358,152,426)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 36
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,14,92,104)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 38
+   ORIENTATION 5
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="A"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (120,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (200,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="Data"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemWrite"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  28, 0, 0
+  {
+   COORD (0,360)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="WD"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  32, 0, 0
+  {
+   COORD (60,440)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CRTLBW"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (10,-10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  36, 0, 0
+  {
+   COORD (140,440)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CTRLM"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (10,-10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (80,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemRead"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+ }
+}
+I 000036 40 2988 1718998676128 fub1
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717878253"
+  #MODIFIED_USEC="609961"
+  #NAME="Fub1"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="a76b45be-35ec-452a-90c4-07d9180ef8de"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,240)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,240)
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,28,98,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,68,27,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (8,14,32,107)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 14
+   ORIENTATION 5
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,108,98,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,148,87,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,188,27,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (2,88,86,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET3510"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (20,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="ALUSRCB"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET4463"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET644"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="0"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET4265"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 7610 1718998676145 fub2
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718916961"
+  #MODIFIED_USEC="135817"
+  #NAME="Fub2"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="f3fbf7f8-caf0-428b-865c-9261e92d1f3c"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,1180,2260)
+  FREEID 42
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,1180,2260)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,1388,95,1412)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,788,128,812)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1096,88,1166,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,104)
+   MARGINS (1,1)
+   PARENT 10
+   ORIENTATION 5
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1077,288,1166,312)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,83)
+   MARGINS (1,1)
+   PARENT 14
+   ORIENTATION 5
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,81)
+   MARGINS (1,1)
+   PARENT 16
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1063,588,1166,612)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1083,708,1166,732)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1095,848,1166,872)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,85)
+   MARGINS (1,1)
+   PARENT 24
+   ORIENTATION 5
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,69)
+   MARGINS (1,1)
+   PARENT 26
+   ORIENTATION 5
+  }
+  TEXT  29, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1080,1168,1166,1192)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 28
+  }
+  TEXT  31, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,104)
+   MARGINS (1,1)
+   PARENT 30
+   ORIENTATION 5
+  }
+  TEXT  33, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1074,1448,1166,1472)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 32
+  }
+  TEXT  35, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1111,1608,1166,1632)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 34
+  }
+  TEXT  37, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,126)
+   MARGINS (1,1)
+   PARENT 36
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,77)
+   MARGINS (1,1)
+   PARENT 38
+   ORIENTATION 5
+  }
+  TEXT  41, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,60)
+   MARGINS (1,1)
+   PARENT 40
+   ORIENTATION 5
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,1400)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="Mbit_11_"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,800)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="Bus In"
+    #NAME="OpCode(3:0)"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (1180,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="PcWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (1180,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemRead"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (1180,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (1180,420)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="Output5"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (1180,520)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegDst"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (1180,600)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemToReg"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (1180,720)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (1180,860)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluSrcA"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (1180,960)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluSrcB"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (1180,1060)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluOp"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  28, 0, 0
+  {
+   COORD (1180,1180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="PcSource"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  30, 0, 0
+  {
+   COORD (1180,1340)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlBranch"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  32, 0, 0
+  {
+   COORD (1180,1460)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CTRLRET"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  34, 0, 0
+  {
+   COORD (1180,1620)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="ExtOp"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  36, 0, 0
+  {
+   COORD (1180,1780)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemDataSrc"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (1180,1900)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlBW"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  40, 0, 0
+  {
+   COORD (1180,2020)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlM"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000050 40 1183 1718998676162 instruction_memory
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717689190"
+  #MODIFIED_USEC="705847"
+  #NAME="Instruction_Memory"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="9d3572cf-4d1b-465c-9f38-643d8186ce12"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,440)
+  FREEID 22
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,440)
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (104,328,186,352)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,228,29,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  PIN  14, 0, 0
+  {
+   COORD (200,340)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+ }
+}
+I 000035 40 3036 1718998676194 reg
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Reg"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="21bdcdb0-6ef1-4f2b-a6c6-c68b37669497"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000035 40 2955 1718998676216 reg
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717875068"
+  #MODIFIED_USEC="168416"
+  #NAME="Reg"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="f41d229c-e58c-4270-b596-2ca31bab3958"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,60,300)
+  FREEID 16
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,60,300)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (4,88,45,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (30,128,45,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (28,14,52,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (0,168,60,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,96,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (30,14,54,81)
+   MARGINS (1,1)
+   PARENT 12
+   ORIENTATION 5
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (-38,48,46,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  PIN  2, 0, 0
+  {
+   COORD (60,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (40,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #NAME="inst-15-0-"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (60,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (60,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000045 40 3358 1718998676239 register_file
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717860028"
+  #MODIFIED_USEC="82219"
+  #NAME="Register_file"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="058570c1-e1ec-4dcd-b3de-6cd72348bd22"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,480)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,180,480)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,88,40,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,168,40,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,328,40,352)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,428,60,452)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,14,92,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 16
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (128,14,152,97)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 5
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,48,166,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,168,166,192)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,340)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="A3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,440)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="WD3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (80,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (140,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegWrite"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (180,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="NET4304"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (-10,0), (0,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (180,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET3518"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000043 40 3407 1718998676494 data_memory
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717864072"
+  #MODIFIED_USEC="783308"
+  #NAME="Data_memory"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,440)
+  FREEID 40
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,440)
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,228,29,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (108,14,132,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 22
+   ORIENTATION 5
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (145,248,186,272)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 24
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,103)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 26
+   ORIENTATION 5
+  }
+  TEXT  29, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,348,49,372)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 28
+  }
+  TEXT  33, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,341,72,426)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 32
+   ORIENTATION 5
+  }
+  TEXT  37, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (128,358,152,426)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 36
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,14,92,104)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 38
+   ORIENTATION 5
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="A"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (120,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (200,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="Data"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemWrite"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  28, 0, 0
+  {
+   COORD (0,360)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="WD"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  32, 0, 0
+  {
+   COORD (60,440)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CRTLBW"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (10,-10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  36, 0, 0
+  {
+   COORD (140,440)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CTRLM"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (10,-10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (80,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemRead"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+ }
+}
+I 000036 40 2988 1718998676529 fub1
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717878253"
+  #MODIFIED_USEC="609961"
+  #NAME="Fub1"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="a76b45be-35ec-452a-90c4-07d9180ef8de"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,240)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,240)
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,28,98,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,68,27,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (8,14,32,107)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 14
+   ORIENTATION 5
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,108,98,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,148,87,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,188,27,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (2,88,86,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET3510"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (20,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="ALUSRCB"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET4463"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET644"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="0"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET4265"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 7610 1718998676574 fub2
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718916961"
+  #MODIFIED_USEC="135817"
+  #NAME="Fub2"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="f3fbf7f8-caf0-428b-865c-9261e92d1f3c"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,1180,2260)
+  FREEID 42
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,1180,2260)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,1388,95,1412)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,788,128,812)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1096,88,1166,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,104)
+   MARGINS (1,1)
+   PARENT 10
+   ORIENTATION 5
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1077,288,1166,312)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,83)
+   MARGINS (1,1)
+   PARENT 14
+   ORIENTATION 5
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,81)
+   MARGINS (1,1)
+   PARENT 16
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1063,588,1166,612)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1083,708,1166,732)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1095,848,1166,872)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,85)
+   MARGINS (1,1)
+   PARENT 24
+   ORIENTATION 5
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,69)
+   MARGINS (1,1)
+   PARENT 26
+   ORIENTATION 5
+  }
+  TEXT  29, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1080,1168,1166,1192)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 28
+  }
+  TEXT  31, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,104)
+   MARGINS (1,1)
+   PARENT 30
+   ORIENTATION 5
+  }
+  TEXT  33, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1074,1448,1166,1472)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 32
+  }
+  TEXT  35, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1111,1608,1166,1632)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 34
+  }
+  TEXT  37, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,126)
+   MARGINS (1,1)
+   PARENT 36
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,77)
+   MARGINS (1,1)
+   PARENT 38
+   ORIENTATION 5
+  }
+  TEXT  41, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,60)
+   MARGINS (1,1)
+   PARENT 40
+   ORIENTATION 5
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,1400)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="Mbit_11_"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,800)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="Bus In"
+    #NAME="OpCode(3:0)"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (1180,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="PcWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (1180,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemRead"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (1180,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (1180,420)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="Output5"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (1180,520)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegDst"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (1180,600)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemToReg"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (1180,720)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (1180,860)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluSrcA"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (1180,960)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluSrcB"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (1180,1060)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluOp"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  28, 0, 0
+  {
+   COORD (1180,1180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="PcSource"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  30, 0, 0
+  {
+   COORD (1180,1340)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlBranch"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  32, 0, 0
+  {
+   COORD (1180,1460)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CTRLRET"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  34, 0, 0
+  {
+   COORD (1180,1620)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="ExtOp"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  36, 0, 0
+  {
+   COORD (1180,1780)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemDataSrc"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (1180,1900)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlBW"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  40, 0, 0
+  {
+   COORD (1180,2020)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlM"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000050 40 1183 1718998676616 instruction_memory
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717689190"
+  #MODIFIED_USEC="705847"
+  #NAME="Instruction_Memory"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="9d3572cf-4d1b-465c-9f38-643d8186ce12"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,440)
+  FREEID 22
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,440)
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (104,328,186,352)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,228,29,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  PIN  14, 0, 0
+  {
+   COORD (200,340)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 3001 1718998676657 fub3
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub3"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000035 40 2955 1718998676685 reg
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717875068"
+  #MODIFIED_USEC="168416"
+  #NAME="Reg"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="f41d229c-e58c-4270-b596-2ca31bab3958"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,60,300)
+  FREEID 16
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,60,300)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (4,88,45,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (30,128,45,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (28,14,52,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (0,168,60,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,96,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (30,14,54,81)
+   MARGINS (1,1)
+   PARENT 12
+   ORIENTATION 5
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (-38,48,46,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  PIN  2, 0, 0
+  {
+   COORD (60,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (40,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #NAME="inst-15-0-"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (60,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (60,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 3001 1718998676734 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub4"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 3001 1718998676764 fub5
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub5"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 3001 1718998676795 fub6
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub6"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 3001 1718998676828 fub7
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub7"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000045 40 3358 1718998676873 register_file
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717860028"
+  #MODIFIED_USEC="82219"
+  #NAME="Register_file"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="058570c1-e1ec-4dcd-b3de-6cd72348bd22"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,480)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,180,480)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,88,40,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,168,40,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,328,40,352)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,428,60,452)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,14,92,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 16
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (128,14,152,97)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 5
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,48,166,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,168,166,192)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,340)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="A3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,440)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="WD3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (80,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (140,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegWrite"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (180,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="NET4304"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (-10,0), (0,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (180,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET3518"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000043 40 3407 1719000028368 data_memory
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717864072"
+  #MODIFIED_USEC="783308"
+  #NAME="Data_memory"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,440)
+  FREEID 40
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,440)
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,228,29,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (108,14,132,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 22
+   ORIENTATION 5
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (145,248,186,272)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 24
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,103)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 26
+   ORIENTATION 5
+  }
+  TEXT  29, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,348,49,372)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 28
+  }
+  TEXT  33, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,341,72,426)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 32
+   ORIENTATION 5
+  }
+  TEXT  37, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (128,358,152,426)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 36
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,14,92,104)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 38
+   ORIENTATION 5
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="A"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (120,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (200,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="Data"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemWrite"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  28, 0, 0
+  {
+   COORD (0,360)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="WD"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  32, 0, 0
+  {
+   COORD (60,440)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CRTLBW"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (10,-10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  36, 0, 0
+  {
+   COORD (140,440)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CTRLM"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (10,-10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (80,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemRead"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+ }
+}
+I 000036 40 2988 1719000028401 fub1
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717878253"
+  #MODIFIED_USEC="609961"
+  #NAME="Fub1"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="a76b45be-35ec-452a-90c4-07d9180ef8de"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,240)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,240)
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,28,98,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,68,27,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (8,14,32,107)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 14
+   ORIENTATION 5
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,108,98,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,148,87,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,188,27,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (2,88,86,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET3510"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (20,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="ALUSRCB"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET4463"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET644"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="0"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET4265"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 7610 1719000028428 fub2
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718916961"
+  #MODIFIED_USEC="135817"
+  #NAME="Fub2"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="f3fbf7f8-caf0-428b-865c-9261e92d1f3c"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,1180,2260)
+  FREEID 42
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,1180,2260)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,1388,95,1412)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,788,128,812)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1096,88,1166,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,104)
+   MARGINS (1,1)
+   PARENT 10
+   ORIENTATION 5
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1077,288,1166,312)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,83)
+   MARGINS (1,1)
+   PARENT 14
+   ORIENTATION 5
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,81)
+   MARGINS (1,1)
+   PARENT 16
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1063,588,1166,612)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1083,708,1166,732)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1095,848,1166,872)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,85)
+   MARGINS (1,1)
+   PARENT 24
+   ORIENTATION 5
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,69)
+   MARGINS (1,1)
+   PARENT 26
+   ORIENTATION 5
+  }
+  TEXT  29, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1080,1168,1166,1192)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 28
+  }
+  TEXT  31, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,104)
+   MARGINS (1,1)
+   PARENT 30
+   ORIENTATION 5
+  }
+  TEXT  33, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1074,1448,1166,1472)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 32
+  }
+  TEXT  35, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1111,1608,1166,1632)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 34
+  }
+  TEXT  37, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,126)
+   MARGINS (1,1)
+   PARENT 36
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,77)
+   MARGINS (1,1)
+   PARENT 38
+   ORIENTATION 5
+  }
+  TEXT  41, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,60)
+   MARGINS (1,1)
+   PARENT 40
+   ORIENTATION 5
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,1400)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="Mbit_11_"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,800)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="Bus In"
+    #NAME="OpCode(3:0)"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (1180,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="PcWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (1180,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemRead"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (1180,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (1180,420)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="Output5"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (1180,520)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegDst"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (1180,600)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemToReg"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (1180,720)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (1180,860)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluSrcA"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (1180,960)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluSrcB"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (1180,1060)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluOp"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  28, 0, 0
+  {
+   COORD (1180,1180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="PcSource"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  30, 0, 0
+  {
+   COORD (1180,1340)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlBranch"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  32, 0, 0
+  {
+   COORD (1180,1460)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CTRLRET"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  34, 0, 0
+  {
+   COORD (1180,1620)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="ExtOp"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  36, 0, 0
+  {
+   COORD (1180,1780)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemDataSrc"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (1180,1900)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlBW"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  40, 0, 0
+  {
+   COORD (1180,2020)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlM"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 3001 1719000028447 fub3
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub3"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 3001 1719000028466 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub4"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 3001 1719000028481 fub5
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub5"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 3001 1719000028502 fub6
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub6"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000036 40 3001 1719000028526 fub7
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub7"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000050 40 1183 1719000028546 instruction_memory
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717689190"
+  #MODIFIED_USEC="705847"
+  #NAME="Instruction_Memory"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="9d3572cf-4d1b-465c-9f38-643d8186ce12"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,440)
+  FREEID 22
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,440)
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (104,328,186,352)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,228,29,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  PIN  14, 0, 0
+  {
+   COORD (200,340)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+ }
+}
+I 000035 40 2955 1719000028568 reg
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717875068"
+  #MODIFIED_USEC="168416"
+  #NAME="Reg"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="f41d229c-e58c-4270-b596-2ca31bab3958"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,60,300)
+  FREEID 16
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,60,300)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (4,88,45,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (30,128,45,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (28,14,52,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (0,168,60,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,96,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (30,14,54,81)
+   MARGINS (1,1)
+   PARENT 12
+   ORIENTATION 5
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (-38,48,46,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  PIN  2, 0, 0
+  {
+   COORD (60,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (40,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #NAME="inst-15-0-"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (60,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (60,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+I 000045 40 3358 1719000028596 register_file
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717860028"
+  #MODIFIED_USEC="82219"
+  #NAME="Register_file"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="058570c1-e1ec-4dcd-b3de-6cd72348bd22"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,480)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,180,480)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,88,40,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,168,40,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,328,40,352)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,428,60,452)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,14,92,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 16
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (128,14,152,97)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 5
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,48,166,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,168,166,192)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,340)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="A3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,440)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="WD3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (80,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (140,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegWrite"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (180,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="NET4304"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (-10,0), (0,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (180,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET3518"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+V 000043 40 3407 1719000029712 data_memory
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717864072"
+  #MODIFIED_USEC="783308"
+  #NAME="Data_memory"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,440)
+  FREEID 40
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,440)
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,228,29,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (108,14,132,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 22
+   ORIENTATION 5
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (145,248,186,272)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 24
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,103)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 26
+   ORIENTATION 5
+  }
+  TEXT  29, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,348,49,372)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 28
+  }
+  TEXT  33, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,341,72,426)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 32
+   ORIENTATION 5
+  }
+  TEXT  37, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (128,358,152,426)
+   ALIGN 9
+   MARGINS (1,1)
+   PARENT 36
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,14,92,104)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 38
+   ORIENTATION 5
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="A"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (120,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (200,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="Data"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemWrite"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  28, 0, 0
+  {
+   COORD (0,360)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="WD"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  32, 0, 0
+  {
+   COORD (60,440)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CRTLBW"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (10,-10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  36, 0, 0
+  {
+   COORD (140,440)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CTRLM"
+    #SIDE="bottom"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (10,-10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (80,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemRead"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+ }
+}
+V 000036 40 2988 1719000029737 fub1
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717878253"
+  #MODIFIED_USEC="609961"
+  #NAME="Fub1"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="a76b45be-35ec-452a-90c4-07d9180ef8de"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,240)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,240)
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,28,98,52)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,68,27,92)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (8,14,32,107)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 14
+   ORIENTATION 5
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,108,98,132)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,148,87,172)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,188,27,212)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (2,88,86,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,40)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET3510"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (0,80)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (20,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="ALUSRCB"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (0,120)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET4463"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (0,160)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET644"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,200)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="0"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET4265"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+V 000036 40 7610 1719000029766 fub2
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718916961"
+  #MODIFIED_USEC="135817"
+  #NAME="Fub2"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="f3fbf7f8-caf0-428b-865c-9261e92d1f3c"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,1180,2260)
+  FREEID 42
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,1180,2260)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,1388,95,1412)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,788,128,812)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1096,88,1166,112)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,104)
+   MARGINS (1,1)
+   PARENT 10
+   ORIENTATION 5
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1077,288,1166,312)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,83)
+   MARGINS (1,1)
+   PARENT 14
+   ORIENTATION 5
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,81)
+   MARGINS (1,1)
+   PARENT 16
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1063,588,1166,612)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 18
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1083,708,1166,732)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1095,848,1166,872)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  TEXT  25, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,85)
+   MARGINS (1,1)
+   PARENT 24
+   ORIENTATION 5
+  }
+  TEXT  27, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,69)
+   MARGINS (1,1)
+   PARENT 26
+   ORIENTATION 5
+  }
+  TEXT  29, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1080,1168,1166,1192)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 28
+  }
+  TEXT  31, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,104)
+   MARGINS (1,1)
+   PARENT 30
+   ORIENTATION 5
+  }
+  TEXT  33, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1074,1448,1166,1472)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 32
+  }
+  TEXT  35, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1111,1608,1166,1632)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 34
+  }
+  TEXT  37, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,126)
+   MARGINS (1,1)
+   PARENT 36
+   ORIENTATION 5
+  }
+  TEXT  39, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,77)
+   MARGINS (1,1)
+   PARENT 38
+   ORIENTATION 5
+  }
+  TEXT  41, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1170,14,1194,60)
+   MARGINS (1,1)
+   PARENT 40
+   ORIENTATION 5
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,1400)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="Mbit_11_"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,800)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="Bus In"
+    #NAME="OpCode(3:0)"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (1180,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="PcWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (1180,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemRead"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (1180,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (1180,420)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="Output5"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (1180,520)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegDst"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (1180,600)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemToReg"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (1180,720)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (1180,860)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluSrcA"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  24, 0, 0
+  {
+   COORD (1180,960)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluSrcB"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  26, 0, 0
+  {
+   COORD (1180,1060)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="AluOp"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  28, 0, 0
+  {
+   COORD (1180,1180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="PcSource"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  30, 0, 0
+  {
+   COORD (1180,1340)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlBranch"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  32, 0, 0
+  {
+   COORD (1180,1460)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CTRLRET"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  34, 0, 0
+  {
+   COORD (1180,1620)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="ExtOp"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  36, 0, 0
+  {
+   COORD (1180,1780)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="MemDataSrc"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  38, 0, 0
+  {
+   COORD (1180,1900)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlBW"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  40, 0, 0
+  {
+   COORD (1180,2020)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CtrlM"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+V 000036 40 3001 1719000029791 fub3
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub3"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+V 000036 40 3001 1719000029813 fub4
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub4"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+V 000036 40 3001 1719000029837 fub5
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub5"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+V 000036 40 3001 1719000029869 fub6
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub6"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+V 000036 40 3001 1719000029903 fub7
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1718808979"
+  #MODIFIED_USEC="843176"
+  #NAME="Fub7"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER=""
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,100,340)
+  FREEID 20
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,100,340)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (44,88,85,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (70,128,85,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (48,14,72,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,168,85,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (3,208,85,232)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 12
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (18,248,85,272)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (1,288,85,312)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 16
+  }
+  PIN  2, 0, 0
+  {
+   COORD (100,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (100,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (60,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (100,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (100,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (100,260)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (100,300)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+V 000050 40 1183 1719000029935 instruction_memory
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717689190"
+  #MODIFIED_USEC="705847"
+  #NAME="Instruction_Memory"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="9d3572cf-4d1b-465c-9f38-643d8186ce12"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,200,440)
+  FREEID 22
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,200,440)
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (104,328,186,352)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,228,29,252)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 20
+  }
+  PIN  14, 0, 0
+  {
+   COORD (200,340)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="inst-15-0-"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (0,240)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+ }
+}
+V 000035 40 2955 1719000029966 reg
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #DESCRIPTION=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717875068"
+  #MODIFIED_USEC="168416"
+  #NAME="Reg"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="f41d229c-e58c-4270-b596-2ca31bab3958"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,60,300)
+  FREEID 16
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,60,300)
+  }
+  TEXT  3, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (4,88,45,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 2
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (30,128,45,152)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (28,14,52,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 6
+   ORIENTATION 5
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (0,168,60,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,48,96,72)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  13, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (30,14,54,81)
+   MARGINS (1,1)
+   PARENT 12
+   ORIENTATION 5
+  }
+  TEXT  15, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (-38,48,46,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 14
+  }
+  PIN  2, 0, 0
+  {
+   COORD (60,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="RD2"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  4, 0, 0
+  {
+   COORD (60,140)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="B"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (40,0)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #LABEL="In"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,0), (-10,0), (0,10), (10,0) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (60,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="NET2990"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #NAME="inst-15-0-"
+    #SIDE="left"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  12, 0, 0
+  {
+   COORD (60,220)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #MODIFIED="1"
+    #NAME="IRWrite"
+    #SIDE="right"
+   }
+  }
+  PIN  14, 0, 0
+  {
+   COORD (60,60)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #LABEL="Out"
+    #LENGTH="0"
+    #NAME="NET1548"
+    #SIDE="right"
+   }
+   LINE  2, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}
+V 000045 40 3358 1719000030003 register_file
+SYMB0100
+HEADER
+{
+ VARIABLES
+ {
+  #CUSTOM_NAME=""
+  #FUB="1"
+  #LANGUAGE="EDIF"
+  #MODIFIED="1717860028"
+  #MODIFIED_USEC="82219"
+  #NAME="Register_file"
+  #SYMBOL_GLOBALLY_UNIQUE_IDENTIFIER="058570c1-e1ec-4dcd-b3de-6cd72348bd22"
+ }
+}
+PAGE "" 
+{
+ PAGEHEADER
+ {
+  RECT (0,0,180,480)
+  FREEID 24
+ }
+ 
+ BODY
+ {
+  RECT  1, -1, 0
+  {
+   VARIABLES
+   {
+    #OUTLINE_FILLING="1"
+   }
+   AREA (0,0,180,480)
+  }
+  TEXT  5, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,88,40,112)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 4
+  }
+  TEXT  7, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,168,40,192)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 6
+  }
+  TEXT  9, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,328,40,352)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 8
+  }
+  TEXT  11, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (14,428,60,452)
+   ALIGN 4
+   MARGINS (1,1)
+   PARENT 10
+  }
+  TEXT  17, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (68,14,92,54)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 16
+   ORIENTATION 5
+  }
+  TEXT  19, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (128,14,152,97)
+   ALIGN 1
+   MARGINS (1,1)
+   PARENT 18
+   ORIENTATION 5
+  }
+  TEXT  21, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,48,166,72)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 20
+  }
+  TEXT  23, 0, 0
+  {
+   TEXT "$#NAME"
+   RECT (82,168,166,192)
+   ALIGN 6
+   MARGINS (1,1)
+   PARENT 22
+  }
+  PIN  4, 0, 0
+  {
+   COORD (0,100)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A1"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  6, 0, 0
+  {
+   COORD (0,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="A2"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (10,-10), (10,10), (0,0), (10,-10) )
+   }
+  }
+  PIN  8, 0, 0
+  {
+   COORD (0,340)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="A3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  10, 0, 0
+  {
+   COORD (0,440)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="WD3"
+    #SIDE="left"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (10,0), (0,-10) )
+   }
+  }
+  PIN  16, 0, 0
+  {
+   COORD (80,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="CLK"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  18, 0, 0
+  {
+   COORD (140,0)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="RegWrite"
+    #SIDE="top"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,10), (10,10), (0,0), (-10,10) )
+   }
+  }
+  PIN  20, 0, 0
+  {
+   COORD (180,60)
+   VARIABLES
+   {
+    #DIRECTION="IN"
+    #FAMILY="Fub"
+    #LABEL="In"
+    #NAME="NET4304"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (0,-10), (0,10), (-10,0), (0,-10) )
+   }
+  }
+  PIN  22, 0, 0
+  {
+   COORD (180,180)
+   VARIABLES
+   {
+    #DIRECTION="OUT"
+    #FAMILY="Fub"
+    #LABEL="Out"
+    #NAME="NET3518"
+    #SIDE="right"
+   }
+   LINE  1, 0, 0
+   {
+    POINTS ( (-10,-10), (-10,10), (0,0), (-10,-10) )
+   }
+  }
+ }
+}

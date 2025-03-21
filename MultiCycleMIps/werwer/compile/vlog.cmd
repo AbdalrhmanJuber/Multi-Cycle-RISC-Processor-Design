@@ -1,0 +1,1 @@
+-o C:/Users/a-ahm/Documents/Design/qweqwe/werwer/compile -lc C:/Users/a-ahm/Documents/Design/qweqwe/library.cfg -fl C:/Users/a-ahm/Documents/Design/qweqwe/werwer/projlib.cfg -pli "C:/Aldec/Active-HDL-Student-Edition/bin/systf.dll" -O2 -sve -msg 5 -sv2k17 -work werwer C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/InstructionMemory.v 

@@ -1,0 +1,12 @@
+.\src\Register_file.v
+.\src\Parameters.v
+.\src\ALU.v
+.\src\Register.v
+.\src\mux_2.v
+.\src\mux_4.v
+.\src\mux_5.v
+.\src\InstructionMemory.v
+.\src\Sign_extension.v
+.\src\DataMemory.v
+.\src\Control_Unit.v
+.\..\..\..\..\Downloads\Processor.v

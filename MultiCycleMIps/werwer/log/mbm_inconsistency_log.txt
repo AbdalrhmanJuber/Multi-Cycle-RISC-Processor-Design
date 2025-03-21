@@ -1,0 +1,9 @@
+Repaired file: C:/Users/a-ahm/Documents/Design/qweqwe/werwer/src/mbm.bde:
+
+____________________________________________________________________________________________________
+Removed segments with zero length:
+	  0. 3498 (Vertex)
+	  0. 3499 (Vertex)
+	  0. 3500 (Segment)
+	net3497 empty after correction
+
